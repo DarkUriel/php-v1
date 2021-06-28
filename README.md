@@ -1,3 +1,4 @@
+## Gestión de Categorías PHP v1
 
 _Primera version en php sobre gestión de categorías para la materia Simulacion de Sistemas_
 
@@ -13,7 +14,7 @@ Mira **Todas las instrucciones** para conocer como desplegar el proyecto.
 _XAMPP en cualquier plataforma_
 _Ejemplo en linux_
 _Ingresar a la pagina https://www.apachefriends.org/es/download.html y Elige la arquitectura para tu Linux OS, versión de 32-bits o de 64-bits._
-_situate en la direccion donde se descargo el paquete_
+_Situate en la direccion donde se descargo el paquete._
 _Y cambia los permisos al instalador_
 
 ```
@@ -33,7 +34,7 @@ sudo /opt/lampp/lampp start
 
 ### Instalación 🔧
 
-_Se necesita tener creado una base de datos para poner en funcionamiento el mini-proyecto_
+_Se necesita tener creado una base de datos para poner en funcionamiento el mini-proyecto._
 
 _Abrir el navegador y coloca la siguiente direccion en la barra de busqueda_
 
@@ -62,7 +63,7 @@ INSERT INTO Usuario(Login, Password, Estado) Values ("Usuario","1234",1);
 
 ```
 
-_Con eso ya estaria listo la base de datos_
+_Con eso ya estaria listo la base de datos._
 _Abre una terminal en linux e ingresa en la siguiente ruta_
 
 
@@ -76,7 +77,7 @@ _Despues clona el repositorio con permisos de superusuario_
 sudo git clone https://github.com/DarkUriel/php-v1
 ```
 
-_Ve al navegdor i coloca la siguiente direccion_
+_Ve al navegador y coloca la siguiente direccion_
 
 ```
 localhost/php-v1
@@ -84,7 +85,7 @@ localhost/php-v1
 
 ## Ejecutando las pruebas ⚙️
 
-_La Aplicacion le pedira que ingrese usuario y clave donde se colocara Usuario y 1234 como clave_
+_La Aplicacion le pedira que ingrese usuario y clave donde se colocara Usuario y 1234 como clave._
 _Despues se le mostrara una interfaz donde podra registrar categorias y descripcion, al lado derecho se mostrara en tiempo real las categorias existentes en la base de datos_
 _La aplicacion cuenta con las funciones principales CRUD para su uso_
 
